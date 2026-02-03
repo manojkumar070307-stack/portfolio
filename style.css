@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  overflow-x: hidden;
+}
+
+/* Canvas background */
+#bg-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.18; /* transparency so text stays clear */
+}
+
+/* Content layout */
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #8b949e;
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #9da7b1;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #58a6ff;
+  padding-left: 12px;
+}
+
+p, li {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(6px);
+}
+
+footer {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
